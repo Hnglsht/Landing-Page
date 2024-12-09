@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ :root {
+    --primary-color: #18BA51;
+    --primary-bg-color:black; 
+    --primary-text-color:#303030;
+    --secondary-text-color:#ABABAB;
+
+}
+h1{
+    color: var(--primary-text-color);
+    font-size: 72px;
+    line-height: 87.77px;
+}
+h4{
+font-size: 24px;
+font-weight: 700;
+line-height: 29.26px;
+color: var(--secondary-text-color);
+}
+h2{
+font-size: 48px;
+font-weight: 700;
+line-height: 58.51px;
+color: #303030;
+}
+
+header {
+    padding: 19px;
+    background-color: var(--primary-bg-color);
+    text-align: center;
+}
+main {
+    margin: auto;
+    max-width: 1200px;
+    background-color: #f4f4f4;
+}
+section{
+    height: 100vh;
+}
+#hero-section{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+#hero-section-title-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+#hero-section-images-container{
+    display: flex;
+    gap: 24px;
+}
+#feature-section{
+   display: flex;
+   justify-content: space-between;
+}
+#feature-section-route{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+#feature-section-route-title{
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+#feature-section-route-trips{
+    display: flex;
+    flex-direction: column;  
+    gap: 16px; 
+}
+.feature-section-route-trips-line{
+    display: flex;
+}
+.feature-section-route-trips-border{
+    border-radius: 50%;
+    padding: 10px;
+    gap: 10px;
+    background-color: #1D1F24;
+    width: 56px;
+    margin-right: 16px;
+    height: 56px;
+    align-content: center;
+}
+.feature-section-route-trips-border>p{
+    display: flex;
+font-size: 17px;
+font-weight: 700;
+line-height: 20.72px;
+color: #16A94A;
+justify-content: center;
+
+}
+.feature-section-route-trips-title{
+    align-content: center;
+}
+
+.feature-section-route-trips-title p{
+font-size: 16px;
+font-weight: 700;
+line-height: 19.5px;
+color: #000000;
+}
+
+.feature-section-route-trips-title p + p{
+font-size: 12px;
+font-weight: 400;
+line-height: 14.63px;
+color: #777777;
+}
+#pricing-section{
+    gap: 80px;
+}
+#pricing-section-title{
+    text-align: center;
+    align-content: center;
+    margin-bottom: 80px;
+}
+#pricing-section-price{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+.pricing-section-price1{
+    width: 240px;
+    height: 310px;
+border-radius: 24px;
+background-color: #ffffff;
+}
+.pricing-section-price2{
+    width: 240px;
+    height: 310px;
+border-radius: 24px;
+background-color: #ffffff;
+border: 2px solid #18BA51;
+}
+.pricing-section-price1>p{
+font-size: 24px;
+font-weight: 700;
+line-height: 29.26px;
+color: #303030;
+padding-top: 40px;
+padding-left: 40px;
+}
+#ul {
+    margin-top: 28px;
+    color: #777777;
+    font-size: 20px;
+    list-style-position: inside;
+}
+.pricing-section-price2>p{
+    font-size: 24px;
+font-weight: 700;
+line-height: 29.26px;
+color: #303030;
+padding-top: 40px;
+padding-left: 40px;
+}
+#dollar {
+    display: flex;
+    font-size: 32px;
+    color: #303030;
+    padding-left: 140px;
+    font-weight: 700;
+}
+#footer-top{
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 393px;
+    flex-direction: column;
+}
+#footer-top>p{
+font-size: 32px;
+font-weight: 700;
+line-height: 39.01px;
+color: #ffffff;
+
+}
+button > p{
+font-size: 16px;
+font-weight: 700;
+line-height: 19.5px;
+color: #ffffff;
+
+}
+button{
+    background-color: #18BA51;
+    border-radius: 4px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+    border: none;
+}
+nav{
+    background-color: #101010 ;
+    height: 220px;
+    display: flex;
+    gap: 10px;
+    padding: 80px 120px;
+
+}
+#pine{
+    height: 68px;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 80px;
+}
+#pine > p{
+    font-size: 28px;
+     font-weight: 700;
+      color: #FFFFFF; 
+}
